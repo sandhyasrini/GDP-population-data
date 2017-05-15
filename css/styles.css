@@ -1,0 +1,140 @@
+.wrapper {
+  background: #f2f2f2;
+  margin: auto;
+  text-align: center;
+  width: 1200px;
+}
+
+.wrapper {
+  padding-top: 20px;
+
+}
+.wrapper h2 {
+  padding-bottom: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  box-shadow: 0 0 2px #999;
+}
+.divider {
+  margin-top: 30px;
+  border-top: 1px solid #bbb;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+h2{
+  color: #fa8070;
+}
+.bar {
+  fill: #3399ff;
+}
+
+.bar:hover {
+  fill: #0065cc;
+  cursor: pointer;
+}
+
+#graphWrap3 .bar {
+  fill: #0065cc;
+}
+#graphWrap3 .bar:hover {
+  fill: #3399ff;
+}
+#graphWrap4 svg {
+  padding-top: 20px;
+}
+
+
+.populationBar {
+  fill: #a54dff;
+}
+.populationBar:hover {
+  fill: #5800b3;
+}
+.populationBar2011 {
+  fill: #0099ff;
+}
+.populationBar2011:hover {
+  fill: #006bb3;
+}
+.populationBar2012 {
+  fill: #4db8ff;
+}
+.populationBar2012:hover {
+  fill: #006bb3;
+}
+.populationBar2013 {
+  fill: #99D5FF;
+}
+.populationBar2013:hover {
+  fill: #006bb3;
+}
+
+.pPBar2011 {
+  fill: #ffcc00;
+}
+.pPBar2012 {
+  fill: #ffdb4d;
+}
+.pPBar2013 {
+  fill: #ffe680;
+}
+.pPBar2011:hover {
+  fill: #e6b900;
+}
+.pPBar2012:hover {
+  fill: #e6b900;
+}
+.pPBar2013:hover {
+  fill: #e6b900;
+}
+
+svg .legend-text {
+  font-size: 12px;
+
+}
+.axis{
+  font: 12px sans-serif;
+}
+.axis> text{
+  font: 14px sans-serif;
+  font-weight: bold;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}

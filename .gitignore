@@ -33,5 +33,10 @@ jspm_packages
 # Optional npm cache directory
 .npm
 
+
+
+#Project Specific ignores
+*.csv
+
 # Optional REPL history
 .node_repl_history
